@@ -1,0 +1,85 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.cards-image{
+border-radius: 100%;
+height:7em !important;
+width: 7em;
+display: block;
+margin: 0 auto;
+}
+.cards-reviews{
+   height: 50%;
+   text-align: center;
+   margin-top: 5%;
+   padding: 5px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.banner{
+    height:30em
+}
+
+
+@media screen and (max-width: 600px) {
+    .cards-image{
+        border-radius: 100%;
+        height:4em !important;
+        width: 4em;
+        display: block;
+        margin: 0 auto;
+        }
+    .banner{
+        height: 15em;
+    }
+    
+}
+.cards-services
+{
+    height: 50%;
+}
+.color-gradient{
+    background: -webkit-linear-gradient(30deg, #cecacc,#7f38d6,#c18bbf);                         background: linear-gradient(30deg, #cecacc,#7f38d6,#c18bbf);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+.cards-body-center{
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+.cards-body-gradient{
+    background: #2980B9;
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+
+}
+.cards-button-color{
+   background-color:  #1c92d2;
+    
+}
+.reviews-gradient{
+    
+    background: #74ebd5; 
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); 
+    
+}
+.lines{
+    display: inline-block;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 9);
+    margin-top: 2px;
+    width: 10%;
+    border-radius: 100%;
+}
+.stars{
+    color: yellow;
+}
+.heading-font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-font{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+}
+.navbar-menue-font{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
+}
